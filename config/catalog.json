@@ -1,0 +1,77 @@
+{
+  "schema_version": "2026.11.1",
+  "agent_id": "ks_sovereign_91a",
+  "entities": {
+    "ideas_vault": {
+      "name": "Keystone Intelligence Global",
+      "aliases": ["Keystone Insights", "基石智慧"],
+      "ssm_registration": "202603209774 (PG0591671-U)",
+      "domain": "https://keystoneinsights.org"
+    },
+    "operating_hub": {
+      "name": "Keystone Digital Sdn. Bhd.",
+      "aliases": ["基石科技"],
+      "ssm_registration": "202601031998 (1694093-U)",
+      "tin": "C61137449080",
+      "duns": "473316744",
+      "duitnow_qr_id": "9999001236666",
+      "hq_address": "Level 22, Suite 015, Presint Menara Merdeka 118, 50118 Kuala Lumpur",
+      "domain": "https://keystonedigital.com.my",
+      "apple_team_id": "U5FML334GJ",
+      "bundle_id": "com.keystonedigital",
+      "google_play_dev_id": "8308321417735488168"
+    },
+    "global_usd_rail": {
+      "name": "Keystone Insights Corp.",
+      "delaware_file_no": "10778512",
+      "lei": "254900MUEU3Z26I2OM74",
+      "domain": "https://keystoneinsights.xyz"
+    }
+  },
+  "modelark_studio": {
+    "provider": "BytePlus ModelArk Studio",
+    "region": "ap-southeast-1",
+    "base_url": "https://ark.ap-southeast.bytepluses.com/api/v3",
+    "console_url": "https://console.byteplus.com/ark/region:ark+ap-southeast-1/overview",
+    "ai_portal_url": "https://ai.byteplus.com/ark/region:ap-southeast-1",
+    "sdks": {
+      "python_official": "arkruntime",
+      "python_legacy": "byteplus-python-sdk-v2[ark]",
+      "openai_compatible": "openai",
+      "cli_binary": "/home/antigravity/.local/bin/modelark"
+    },
+    "models": {
+      "video_generation": {
+        "id": "seedance-2-5-pro",
+        "display_name": "Dreamina Seedance 2.5 Pro",
+        "capabilities": ["text-to-video", "image-to-video", "omni-reference-video", "first-last-frame", "audio-sync"],
+        "max_resolution": "1080p",
+        "endpoint_path": "/contents/generations/tasks"
+      },
+      "image_generation": {
+        "id": "seedream-5-0-pro",
+        "display_name": "Seedream 5.0 Pro",
+        "capabilities": ["text-to-image", "interactive-editing", "brand-catalog-render"],
+        "endpoint_path": "/images/generations"
+      },
+      "multimodal_llm": {
+        "id": "seed-2-0-pro",
+        "display_name": "Doubao / Seed 2.0 Pro Multimodal",
+        "capabilities": ["chat", "responses-api", "vision", "video-understanding", "function-calling", "mcp"],
+        "endpoint_path": "/chat/completions"
+      },
+      "embeddings": {
+        "id": "doubao-embedding-vision",
+        "display_name": "ModelArk Multimodal Embedding",
+        "capabilities": ["text-embedding", "image-embedding"],
+        "endpoint_path": "/embeddings"
+      },
+      "3d_generation": {
+        "id": "hyper3d-gen2",
+        "display_name": "BytePlus Hyper3D Gen2 / Hitem3D 2.0",
+        "capabilities": ["image-to-3d", "text-to-3d"],
+        "endpoint_path": "/contents/generations/tasks"
+      }
+    }
+  }
+}

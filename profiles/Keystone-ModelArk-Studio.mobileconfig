@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>FullScreen</key>
+            <true/>
+            <key>IgnoreManifestScope</key>
+            <true/>
+            <key>IsRemovable</key>
+            <false/>
+            <key>Label</key>
+            <string>ModelArk Studio</string>
+            <key>PayloadDescription</key>
+            <string>Installs BytePlus ModelArk Studio (ap-southeast-1) WebClip for Keystone Digital Sdn. Bhd.</string>
+            <key>PayloadDisplayName</key>
+            <string>BytePlus ModelArk Studio (Keystone)</string>
+            <key>PayloadIdentifier</key>
+            <string>com.keystonedigital.modelark.webclip</string>
+            <key>PayloadOrganization</key>
+            <string>Keystone Digital Sdn. Bhd. (1694093-U)</string>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadUUID</key>
+            <string>91A00001-B7E0-4A2C-9F01-169409300001</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>Precomposed</key>
+            <true/>
+            <key>URL</key>
+            <string>https://console.byteplus.com/ark/region:ark+ap-southeast-1/overview</string>
+        </dict>
+        <dict>
+            <key>FullScreen</key>
+            <true/>
+            <key>IsRemovable</key>
+            <false/>
+            <key>Label</key>
+            <string>ModelArk Playground</string>
+            <key>PayloadDescription</key>
+            <string>Installs BytePlus ModelArk AI Playground (Seedance 2.5 &amp; Seedream 5.0)</string>
+            <key>PayloadDisplayName</key>
+            <string>BytePlus AI Playground</string>
+            <key>PayloadIdentifier</key>
+            <string>com.keystonedigital.modelark.playground</string>
+            <key>PayloadOrganization</key>
+            <string>Keystone Digital Sdn. Bhd. (1694093-U)</string>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadUUID</key>
+            <string>91A00002-B7E0-4A2C-9F01-169409300002</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>Precomposed</key>
+            <true/>
+            <key>URL</key>
+            <string>https://ai.byteplus.com/ark/region:ap-southeast-1</string>
+        </dict>
+        <dict>
+            <key>FullScreen</key>
+            <true/>
+            <key>IsRemovable</key>
+            <false/>
+            <key>Label</key>
+            <string>Keystone HQ Map</string>
+            <key>PayloadDescription</key>
+            <string>Pins Menara Merdeka 118 HQ in Google Maps</string>
+            <key>PayloadDisplayName</key>
+            <string>Keystone Merdeka 118 Google Maps Pin</string>
+            <key>PayloadIdentifier</key>
+            <string>com.keystonedigital.modelark.maps</string>
+            <key>PayloadOrganization</key>
+            <string>Keystone Digital Sdn. Bhd. (1694093-U)</string>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadUUID</key>
+            <string>91A00003-B7E0-4A2C-9F01-169409300003</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>Precomposed</key>
+            <true/>
+            <key>TargetApplicationBundleIdentifier</key>
+            <string>com.google.Maps</string>
+            <key>URL</key>
+            <string>comgooglemaps://?q=Menara+Merdeka+118,+50118+Kuala+Lumpur</string>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Keystone Sovereign Agent (ks_sovereign_91a) — BytePlus ModelArk Studio Device Provisioning Profile under Apple Developer Team U5FML334GJ (Keystone Digital Sdn. Bhd. 1694093-U).</string>
+    <key>PayloadDisplayName</key>
+    <string>BytePlus ModelArk Studio — Keystone Digital (U5FML334GJ)</string>
+    <key>PayloadIdentifier</key>
+    <string>U5FML334GJ.com.keystonedigital.modelark</string>
+    <key>PayloadOrganization</key>
+    <string>Keystone Digital Sdn. Bhd. (SSM 202601031998 / 1694093-U)</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>91A00000-B7E0-4A2C-9F01-169409300000</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
