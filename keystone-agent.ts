@@ -261,4 +261,59 @@ export class KeystonePartnerRetentionFlywheel {
   }
 }
 
+export interface CloudflareConfig {
+  apiToken: string;
+  accountId: string;
+  zoneId: string;
+}
+
+export class KeystoneCloudflareClient {
+  private config: CloudflareConfig;
+
+  constructor(config: Partial<CloudflareConfig> = {}) {
+    this.config = {
+      apiToken: process.env.CLOUDFLARE_API_TOKEN || "",
+      accountId: process.env.CLOUDFLARE_ACCOUNT_ID || "",
+      zoneId: process.env.CLOUDFLARE_ZONE_ID || "",
+      ...config,
+    };
+  }
+
+  async verifyToken() {
+    if (!this.config.apiToken) {
+      return { status: "unconfigured", message: "CLOUDFLARE_API_TOKEN is not set" };
+    }
+    const res = await fetch("https://api.cloudflare.com/client/v4/user/tokens/verify", {
+      headers: { Authorization: `Bearer ${this.config.apiToken}` },
+    });
+    return res.json();
+  }
+
+  async listDnsRecords(zoneId = this.config.zoneId) {
+    if (!zoneId || !this.config.apiToken) {
+      return { status: "mock_ready", zoneId, records: [] };
+    }
+    const res = await fetch(`https://api.cloudflare.com/client/v4/zones/${zoneId}/dns_records`, {
+      headers: { Authorization: `Bearer ${this.config.apiToken}` },
+    });
+    return res.json();
+  }
+
+  async purgeCache(zoneId = this.config.zoneId, purgeEverything = true) {
+    if (!zoneId || !this.config.apiToken) {
+      return { status: "purged_dry_run", zoneId, purge_everything: purgeEverything };
+    }
+    const res = await fetch(`https://api.cloudflare.com/client/v4/zones/${zoneId}/purge_cache`, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${this.config.apiToken}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ purge_everything: purgeEverything }),
+    });
+    return res.json();
+  }
+}
+
 export const sovereignSwitchboard = new KeystoneIntelligenceSwitchboard();
+export const cloudflareClient = new KeystoneCloudflareClient();

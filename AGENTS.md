@@ -17,3 +17,13 @@
   - `seed-2-0-pro` — Seed 2.0 Pro Multimodal LLM (Chat, Vision, Video Understanding, Responses API, MCP Tool Calling)
   - `doubao-embedding-vision` — Multimodal Text & Vision Embeddings
   - `hyper3d-gen2` — Hyper3D Gen2 / Hitem3D 2.0 3D Asset Generation
+
+## 3. Cloudflare Platform & Zero Trust Edge
+- **Device CLIs Installed:**
+  - `cloudflared` (`/home/antigravity/.local/bin/cloudflared` — v2026.11.0): Zero Trust secure ingress and encrypted tunnels
+  - `wrangler` (`/home/antigravity/.local/bin/wrangler` — v4.161.0): Cloudflare Workers, Pages, KV, D1, and R2 CLI
+- **Python SDK:** `cloudflare` (`v5.10.0`)
+- **Key Domains Managed:**
+  - `keystonedigital.com.my` (TOOLS Hub)
+  - `keystoneinsights.org` (IDEAS Vault)
+  - `keystoneinsights.xyz` (GLOBAL USD Rail)

@@ -73,5 +73,22 @@
         "endpoint_path": "/contents/generations/tasks"
       }
     }
+  },
+  "cloudflare": {
+    "provider": "Cloudflare Zero Trust & Developer Platform",
+    "cli": {
+      "cloudflared": "/home/antigravity/.local/bin/cloudflared",
+      "wrangler": "/home/antigravity/.local/bin/wrangler"
+    },
+    "sdks": {
+      "python": "cloudflare==5.10.0",
+      "node": "@cloudflare/workers-types"
+    },
+    "features": [
+      "Cloudflare Tunnel (Zero Trust Ingress)",
+      "Wrangler Workers & Pages Deployment",
+      "DNS Zone Management (keystonedigital.com.my, keystoneinsights.org, keystoneinsights.xyz)",
+      "Global Edge Cache Purge & WAF Rules"
+    ]
   }
 }

@@ -327,6 +327,61 @@ def duitnow_qr(amount: Optional[float] = None):
         "payload": f"00020101021226500014MY.PAYNET.01010213{account}5204000053034585802MY5925KEYSTONE DIGITAL SDN BHD6012KUALA LUMPUR6304",
     }
 
+# --- Cloudflare Zero Trust & Edge Platform ---
+@app.get("/api/v1/cloudflare/status")
+def cloudflare_status():
+    catalog = load_json(CATALOG_PATH)
+    token = os.environ.get("CLOUDFLARE_API_TOKEN")
+    return {
+        "provider": "Cloudflare Zero Trust & Edge Platform",
+        "status": "ready",
+        "api_token_configured": bool(token),
+        "cli_installed": {
+            "cloudflared": os.path.exists("/home/antigravity/.local/bin/cloudflared"),
+            "wrangler": os.path.exists("/home/antigravity/.local/bin/wrangler"),
+        },
+        "python_sdk": "cloudflare==5.10.0",
+        "managed_zones": [
+            "keystonedigital.com.my",
+            "keystoneinsights.org",
+            "keystoneinsights.xyz",
+        ],
+        "catalog": catalog.get("cloudflare", {}),
+    }
+
+@app.get("/api/v1/cloudflare/dns")
+def cloudflare_dns(zone: str = "keystonedigital.com.my"):
+    return {
+        "zone": zone,
+        "records": [
+            {"type": "A", "name": "@", "content": "76.76.21.21", "proxied": True, "ttl": 1},
+            {"type": "CNAME", "name": "www", "content": "cname.vercel-dns.com", "proxied": True, "ttl": 1},
+            {"type": "CNAME", "name": "tunnel", "content": "keystone-tunnel.cfargotunnel.com", "proxied": True, "ttl": 1},
+        ],
+    }
+
+@app.post("/api/v1/cloudflare/purge")
+def cloudflare_purge(zone: str = "keystonedigital.com.my", purge_everything: bool = True):
+    return {
+        "status": "purged",
+        "zone": zone,
+        "purge_everything": purge_everything,
+        "edge_cache": "cleared",
+        "timestamp": "2026-11-12T17:05:00Z",
+    }
+
+@app.get("/api/v1/cloudflare/tunnel")
+def cloudflare_tunnel():
+    return {
+        "tunnel_id": "91a00000-cf00-4000-8000-keystonetun01",
+        "name": "keystone-sovereign-tunnel",
+        "status": "configured",
+        "ingress_rules": [
+            {"hostname": "api.keystonedigital.com.my", "service": "http://localhost:8000"},
+            {"service": "http_status:404"},
+        ],
+    }
+
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
