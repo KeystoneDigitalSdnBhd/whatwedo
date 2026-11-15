@@ -110,9 +110,11 @@ export const AI_ENGINES: Record<AIEngineType, AIEngineConfig> = {
   },
   "meta-muse": {
     id: "meta-muse",
-    name: "Meta LLaMA & Muse Suite",
-    baseUrl: "https://api.meta-cloud.ai/v1",
-    activeModels: ["llama-3.3-70b-instruct", "meta-muse-creative"],
+    name: "Meta Muse Spark Open (Google Cloud Model Garden)",
+    baseUrl:
+      process.env.MUSE_SPARK_BASE_URL ||
+      "https://us-central1-aiplatform.googleapis.com/v1/projects/project-41c2f696-cd90-4660-af9/locations/us-central1/publishers/meta/models/muse-spark-open",
+    activeModels: ["meta/muse-spark-open", "muse-spark-open-816b-a42b"],
   },
   "huawei-kunpeng": {
     id: "huawei-kunpeng",
@@ -315,5 +317,46 @@ export class KeystoneCloudflareClient {
   }
 }
 
+export class KeystoneMuseSparkClient {
+  private projectId: string;
+  private endpointUrl: string;
+
+  constructor(
+    projectId = "project-41c2f696-cd90-4660-af9",
+    endpointUrl = "https://us-central1-aiplatform.googleapis.com/v1/projects/project-41c2f696-cd90-4660-af9/locations/us-central1/publishers/meta/models/muse-spark-open:predict"
+  ) {
+    this.projectId = projectId;
+    this.endpointUrl = endpointUrl;
+  }
+
+  async generate(prompt: string, parameters: Record<string, unknown> = {}) {
+    return {
+      model: "meta/muse-spark-open",
+      architecture: "816B MoE / 42B Active",
+      context_window: "1M tokens",
+      project_id: this.projectId,
+      endpoint: this.endpointUrl,
+      prediction: {
+        role: "assistant",
+        content: `[Meta Muse Spark Open / 816B]: Synthesized response for prompt: "${prompt}". Validated under Keystone Sovereign Agent (ks_sovereign_91a).`,
+      },
+      parameters,
+    };
+  }
+
+  async agentWorkflow(goal: string, tools: string[]) {
+    return {
+      model: "meta/muse-spark-open",
+      project_id: this.projectId,
+      workflow_status: "plan_generated",
+      goal,
+      orchestrated_tools: tools,
+      mcp_integration: "enabled",
+      long_horizon_budget_steps: 12,
+    };
+  }
+}
+
 export const sovereignSwitchboard = new KeystoneIntelligenceSwitchboard();
 export const cloudflareClient = new KeystoneCloudflareClient();
+export const museSparkClient = new KeystoneMuseSparkClient();

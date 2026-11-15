@@ -90,5 +90,30 @@
       "DNS Zone Management (keystonedigital.com.my, keystoneinsights.org, keystoneinsights.xyz)",
       "Global Edge Cache Purge & WAF Rules"
     ]
+  },
+  "meta_muse": {
+    "model_id": "meta/muse-spark-open",
+    "display_name": "Meta Muse Spark Open (816B MoE / 42B Active)",
+    "publisher": "meta",
+    "platform": "Google Cloud Vertex AI / Agent Platform / Model Garden",
+    "gcp_project_id": "project-41c2f696-cd90-4660-af9",
+    "console_url": "https://console.cloud.google.com/agent-platform/publishers/meta/model-garden/muse-spark-open?pli=1&pageState=(%22galleryStateKey%22:(%22f%22:(%22g%22:[],%22o%22:[]),%22s%22:%22%22))&authuser=1&project=project-41c2f696-cd90-4660-af9",
+    "architecture": {
+      "total_parameters": "816B",
+      "active_parameters": "42B",
+      "type": "Sparse Mixture-of-Experts (MoE)",
+      "context_window": "1,048,576 tokens (1M)",
+      "modalities": ["text", "code", "image", "audio", "video"]
+    },
+    "capabilities": [
+      "Long-horizon agentic workflows",
+      "Native tool calling & MCP server integration",
+      "Competitive coding & code refactoring",
+      "Multi-step enterprise autonomous orchestration"
+    ],
+    "endpoint": {
+      "vertex_ai_endpoint": "https://us-central1-aiplatform.googleapis.com/v1/projects/project-41c2f696-cd90-4660-af9/locations/us-central1/publishers/meta/models/muse-spark-open:predict",
+      "stream_endpoint": "https://us-central1-aiplatform.googleapis.com/v1/projects/project-41c2f696-cd90-4660-af9/locations/us-central1/publishers/meta/models/muse-spark-open:serverStreamingPredict"
+    }
   }
 }

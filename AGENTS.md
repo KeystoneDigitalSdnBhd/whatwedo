@@ -27,3 +27,10 @@
   - `keystonedigital.com.my` (TOOLS Hub)
   - `keystoneinsights.org` (IDEAS Vault)
   - `keystoneinsights.xyz` (GLOBAL USD Rail)
+
+## 4. Meta Muse Spark Open (Google Cloud Model Garden)
+- **Model:** `meta/muse-spark-open` (816B MoE / 42B Active parameters, 1M context window)
+- **Publisher / Platform:** Meta on Google Cloud Vertex AI / Agent Platform / Model Garden
+- **Google Cloud Project:** `project-41c2f696-cd90-4660-af9`
+- **Console Link:** [Google Cloud Model Garden Console](https://console.cloud.google.com/agent-platform/publishers/meta/model-garden/muse-spark-open?pli=1&pageState=(%22galleryStateKey%22:(%22f%22:(%22g%22:[],%22o%22:[]),%22s%22:%22%22))&authuser=1&project=project-41c2f696-cd90-4660-af9)
+- **Capabilities:** Long-horizon agentic workflows, native tool calling, MCP server pipelines, competitive coding, and multi-step enterprise orchestration.
