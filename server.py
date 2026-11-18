@@ -9,6 +9,7 @@ import os
 import uuid
 from typing import Optional, List, Dict, Any
 from fastapi import FastAPI, HTTPException, Response
+from fastapi.responses import PlainTextResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 import uvicorn
@@ -32,6 +33,19 @@ ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 CATALOG_PATH = os.path.join(ROOT_DIR, "config", "catalog.json")
 INTEL_DIR_PATH = os.path.join(ROOT_DIR, "config", "intelligence-api-directory.json")
 PROFILES_DIR = os.path.join(ROOT_DIR, "profiles")
+LEGAL_DIR = os.path.join(ROOT_DIR, "legal")
+
+LEGAL_DOCS = {
+    "terms": ("Terms of Service", "terms-of-service.md"),
+    "privacy": ("Privacy Policy & PDPA Notice", "privacy-policy.md"),
+    "cookies": ("Cookie Policy", "cookie-policy.md"),
+    "acceptable-use": ("Acceptable Use Policy", "acceptable-use-policy.md"),
+    "refunds": ("Refund & Cancellation Policy", "refund-and-cancellation-policy.md"),
+    "disclaimer": ("Disclaimer", "disclaimer.md"),
+    "subprocessors": ("Sub-processors", "subprocessors.md"),
+}
+LEGAL_EFFECTIVE_DATE = "2026-11-17"
+LEGAL_VERSION = "1.0"
 
 def load_json(path_str: str) -> dict:
     if os.path.exists(path_str):
@@ -42,7 +56,7 @@ def load_json(path_str: str) -> dict:
 ENTITIES = {
     "ideas_vault": {
         "name": "Keystone Intelligence Global",
-        "ssm": "202603209774 (PG0591671-U)",
+        "ssm": "202603209774",
         "domain": "https://keystoneinsights.org",
     },
     "operating_hub": {
@@ -51,7 +65,7 @@ ENTITIES = {
         "tin": "C61137449080",
         "duns": "473316744",
         "duitnow_qr_id": "9999001236666",
-        "hq_address": "Level 22, Suite 015, Presint Menara Merdeka 118, 50118 Kuala Lumpur",
+        "hq_address": "Level 22, Suite 015, Menara Merdeka 118, 50118 Kuala Lumpur, Malaysia",
         "domain": "https://keystonedigital.com.my",
         "apple_team_id": "U5FML334GJ",
         "bundle_id": "com.keystonedigital",
@@ -107,7 +121,7 @@ class IncorporationRequest(BaseModel):
     company_type: str = "Sdn. Bhd."
     paid_up_capital_myr: float = 10000.0
     directors: List[Dict[str, str]]
-    registered_office: str = "Level 22, Suite 015, Presint Menara Merdeka 118, 50118 Kuala Lumpur"
+    registered_office: str = "Level 22, Suite 015, Menara Merdeka 118, 50118 Kuala Lumpur, Malaysia"
 
 # --- Endpoints ---
 @app.get("/")
@@ -133,7 +147,29 @@ def health():
             "total_sheets": intel.get("total_sheets", 16),
             "total_tools": intel.get("total_tools", 167),
         },
+        "legal": {slug: f"/legal/{slug}" for slug in LEGAL_DOCS},
     }
+
+# --- Legal: Terms, Privacy (PDPA), Cookies, AUP, Refunds, Disclaimer ---
+@app.get("/legal")
+def legal_index():
+    return {
+        "entity": ENTITIES["operating_hub"]["name"],
+        "effective_date": LEGAL_EFFECTIVE_DATE,
+        "version": LEGAL_VERSION,
+        "documents": [
+            {"slug": slug, "title": title, "url": f"/legal/{slug}"}
+            for slug, (title, _) in LEGAL_DOCS.items()
+        ],
+    }
+
+@app.get("/legal/{slug}", response_class=PlainTextResponse)
+def legal_document(slug: str):
+    doc = LEGAL_DOCS.get(slug)
+    if not doc:
+        raise HTTPException(status_code=404, detail=f"Unknown legal document '{slug}'")
+    with open(os.path.join(LEGAL_DIR, doc[1]), "r", encoding="utf-8") as f:
+        return PlainTextResponse(f.read(), media_type="text/markdown; charset=utf-8")
 
 # --- BytePlus ModelArk Studio APIs ---
 @app.get("/api/v1/modelark/status")

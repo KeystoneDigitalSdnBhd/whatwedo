@@ -2,20 +2,69 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
   "framework": null,
+  "rewrites": [
+    {
+      "source": "/legal",
+      "destination": "/legal/README.md"
+    },
+    {
+      "source": "/legal/terms",
+      "destination": "/legal/terms-of-service.md"
+    },
+    {
+      "source": "/legal/privacy",
+      "destination": "/legal/privacy-policy.md"
+    },
+    {
+      "source": "/legal/cookies",
+      "destination": "/legal/cookie-policy.md"
+    },
+    {
+      "source": "/legal/acceptable-use",
+      "destination": "/legal/acceptable-use-policy.md"
+    },
+    {
+      "source": "/legal/refunds",
+      "destination": "/legal/refund-and-cancellation-policy.md"
+    },
+    {
+      "source": "/legal/disclaimer",
+      "destination": "/legal/disclaimer.md"
+    },
+    {
+      "source": "/legal/subprocessors",
+      "destination": "/legal/subprocessors.md"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Keystone-CDN", "value": "vercel-global-edge" },
-        { "key": "X-Keystone-Agent", "value": "ks_sovereign_91a" },
-        { "key": "X-Keystone-AI-Engine", "value": "BytePlus-ModelArk-Studio-ap-southeast-1" }
+        {
+          "key": "X-Keystone-CDN",
+          "value": "vercel-global-edge"
+        },
+        {
+          "key": "X-Keystone-Agent",
+          "value": "ks_sovereign_91a"
+        },
+        {
+          "key": "X-Keystone-AI-Engine",
+          "value": "BytePlus-ModelArk-Studio-ap-southeast-1"
+        }
       ]
     },
     {
       "source": "/profiles/(.*)\\.mobileconfig",
       "headers": [
-        { "key": "Content-Type", "value": "application/x-apple-aspen-config" },
-        { "key": "Content-Disposition", "value": "attachment; filename=\"Keystone-ModelArk-Studio.mobileconfig\"" }
+        {
+          "key": "Content-Type",
+          "value": "application/x-apple-aspen-config"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"Keystone-ModelArk-Studio.mobileconfig\""
+        }
       ]
     }
   ]
