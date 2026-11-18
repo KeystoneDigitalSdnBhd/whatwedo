@@ -121,11 +121,11 @@ npm run smoke       # spawns dist/index.js over stdio, handshake + tools/list + 
 npm run live-check  # read-only calls to real Lazada (needs credentials; exit 2 = skipped)
 ```
 
-## CI (`.github/workflows/lazada-mcp.yml`)
+## CI (`.github/workflows/mcp-servers.yml`)
 
 - **test**: runs on Node 22 and 24. Typecheck, tests, build, then the stdio smoke test. Triggered by pushes and PRs that touch `mcp/lazada/**`.
 - **audit**: `npm audit` on production dependencies, failing on high severity.
-- **live**: manual `workflow_dispatch` with `live: true` only. Uses the `lazada-live`
+- **live**: manual `workflow_dispatch` with `live: true` (server `lazada` or `all`) only. Uses the `lazada-live`
   GitHub environment secrets (`LAZADA_APP_KEY`, `LAZADA_APP_SECRET`,
   `LAZADA_ACCESS_TOKEN` or `LAZADA_REFRESH_TOKEN`) and the optional `LAZADA_REGION` variable.
   It never runs on pull requests, so untrusted code can't read the secrets.
