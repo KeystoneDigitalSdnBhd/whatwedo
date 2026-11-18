@@ -2,7 +2,7 @@
 
 **Keystone Digital Sdn. Bhd.** (1694093-U) · Effective date: 17 November 2026 · Version 1.0
 
-This disclaimer supplements our [Terms of Service](terms-of-service.md).
+This disclaimer supplements our [Terms of Service](/legal/terms).
 
 ## 1. AI-generated content
 
@@ -26,4 +26,4 @@ Company registration, tax and identifier details published by us are provided fo
 
 ## 6. Limitation
 
-To the maximum extent permitted by law, we are not liable for loss arising from reliance on the content described above. See section 13 of the [Terms of Service](terms-of-service.md#13-limitation-of-liability).
+To the maximum extent permitted by law, we are not liable for loss arising from reliance on the content described above. See section 13 of the [Terms of Service](/legal/terms#13-limitation-of-liability).

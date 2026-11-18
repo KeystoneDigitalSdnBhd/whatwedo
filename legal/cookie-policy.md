@@ -2,7 +2,7 @@
 
 **Keystone Digital Sdn. Bhd.** (1694093-U) · Effective date: 17 November 2026 · Version 1.0
 
-This policy explains how we use cookies and similar technologies (local storage, pixels and SDKs) on our websites and apps. It supplements our [Privacy Policy](privacy-policy.md).
+This policy explains how we use cookies and similar technologies (local storage, pixels and SDKs) on our websites and apps. It supplements our [Privacy Policy](/legal/privacy).
 
 ## 1. What cookies are
 
@@ -27,4 +27,4 @@ The cookie list may change as the Services evolve. We keep this table up to date
 
 ## 4. Contact
 
-Questions about cookies: see the contact details in our [Privacy Policy](privacy-policy.md#14-contact).
+Questions about cookies: see the contact details in our [Privacy Policy](/legal/privacy#14-contact).

@@ -56,7 +56,7 @@ def load_json(path_str: str) -> dict:
 ENTITIES = {
     "ideas_vault": {
         "name": "Keystone Intelligence Global",
-        "ssm": "202603209774 (PG0591671-U)",
+        "ssm": "202603209774",
         "domain": "https://keystoneinsights.org",
     },
     "operating_hub": {
@@ -65,7 +65,7 @@ ENTITIES = {
         "tin": "C61137449080",
         "duns": "473316744",
         "duitnow_qr_id": "9999001236666",
-        "hq_address": "Level 22, Suite 015, Presint Menara Merdeka 118, 50118 Kuala Lumpur",
+        "hq_address": "Level 22, Suite 015, Menara Merdeka 118, 50118 Kuala Lumpur, Malaysia",
         "domain": "https://keystonedigital.com.my",
         "apple_team_id": "U5FML334GJ",
         "bundle_id": "com.keystonedigital",
@@ -121,7 +121,7 @@ class IncorporationRequest(BaseModel):
     company_type: str = "Sdn. Bhd."
     paid_up_capital_myr: float = 10000.0
     directors: List[Dict[str, str]]
-    registered_office: str = "Level 22, Suite 015, Presint Menara Merdeka 118, 50118 Kuala Lumpur"
+    registered_office: str = "Level 22, Suite 015, Menara Merdeka 118, 50118 Kuala Lumpur, Malaysia"
 
 # --- Endpoints ---
 @app.get("/")
