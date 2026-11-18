@@ -5,16 +5,16 @@ Effective date: 17 November 2026 · Version 1.0
 
 This notice is issued under section 7 of the **Personal Data Protection Act 2010** (Malaysia), as amended by the Personal Data Protection (Amendment) Act 2024 (the "**PDPA**"). It explains how Keystone Digital Sdn. Bhd. ("**Keystone**", "**we**", "**us**") collects, uses, discloses and protects personal data when you use our websites, APIs, AI agents, apps, device profiles and related services (the "**Services**").
 
-A Bahasa Malaysia version of this notice appears at the [end of this document](#notis-perlindungan-data-peribadi-bahasa-malaysia), as required by the PDPA.
+This notice is provided in English. A Malay (Bahasa Malaysia) version is available on request from our Data Protection Officer (see Section 14).
 
 ## 1. Data controller
 
 | | |
 |---|---|
 | Data controller | Keystone Digital Sdn. Bhd. |
-| Address | Level 22, Suite 015, Presint Menara Merdeka 118, 50118 Kuala Lumpur, Malaysia |
-| Data Protection Officer | **[TO CONFIRM: name]** |
-| DPO email | **[TO CONFIRM: dpo@keystonedigital.com.my]** |
+| Address | Level 22, Suite 015, Menara Merdeka 118, 50118 Kuala Lumpur, Malaysia |
+| Data Protection Officer | Lim Chi Loon |
+| DPO email | owen.lim@keystonedigital.com.my |
 
 ## 2. Personal data we collect
 
@@ -28,7 +28,7 @@ A Bahasa Malaysia version of this notice appears at the [end of this document](#
 | Device and technical | IP address, device type, operating system, browser, MDM profile installation status, logs, timestamps | Automatically |
 | Usage | Features used, API calls, token usage, errors, performance data | Automatically |
 | Communications | Support tickets, emails, chats with our AI ambassador "Kaito" | You |
-| Cookies | See our [Cookie Policy](cookie-policy.md) | Automatically |
+| Cookies | See our [Cookie Policy](/legal/cookies) | Automatically |
 
 We do not intend to collect **sensitive personal data** (such as health, religious beliefs, political opinions or biometric data). Do not submit it in prompts or files unless it is necessary and you have explicit consent from the individual. Where you do, you are responsible for that consent.
 
@@ -39,12 +39,12 @@ We do not intend to collect **sensitive personal data** (such as health, religio
 3. To onboard partners, verify businesses and carry out incorporation, e-invoicing and payment workflows you request.
 4. To bill you, issue e-invoices to LHDN MyInvois and collect payment.
 5. To provide support and respond to enquiries.
-6. To secure the Services, prevent fraud and abuse, and enforce our [Acceptable Use Policy](acceptable-use-policy.md).
+6. To secure the Services, prevent fraud and abuse, and enforce our [Acceptable Use Policy](/legal/acceptable-use).
 7. To monitor and improve performance and reliability (using aggregated or de-identified data where possible).
 8. To send service notices and, with your consent, marketing. You can opt out of marketing at any time.
 9. To comply with legal and regulatory obligations, including tax, anti-money-laundering and record-keeping laws, and requests from authorities.
 
-**We do not use your prompts, files or outputs to train AI models**, and we contractually prohibit our providers from doing so, unless you expressly opt in.
+**We do not use your prompts, files or outputs to train our own AI models** unless you expressly opt in. We choose providers and settings that do not use your content to train their models, where available.
 
 ## 4. Is providing personal data obligatory?
 
@@ -54,10 +54,10 @@ Data marked as required during sign-up, onboarding, incorporation or billing is 
 
 We disclose personal data only as needed for the purposes above, to:
 
-- **Service providers (data processors)**: cloud hosting, AI model providers, CDN and security, email and messaging, analytics and support tools. See the current list in [Sub-processors](subprocessors.md).
+- **Service providers (data processors)**: cloud hosting, AI model providers, CDN and security, email and messaging, analytics and support tools. See the current list in [Sub-processors](/legal/subprocessors).
 - **Banks and payment providers** that process payments you initiate.
 - **Government and regulatory bodies**, such as LHDN (MyInvois), the Companies Commission of Malaysia (SSM), Bank Negara Malaysia and law enforcement, where required by law or to carry out a service you request.
-- **Our related companies**: Keystone Intelligence Global and Keystone Insights Corp., for intellectual property management and USD-denominated services.
+- **Our related entities**: Keystone Intelligence Global, a related entity that holds the group's trade marks and intellectual property, and Keystone Insights Corp., for USD-denominated services.
 - **Professional advisers**, such as auditors, lawyers and company secretaries, under confidentiality duties.
 - **A buyer or successor** in a merger, acquisition or restructuring, subject to this notice.
 
@@ -69,7 +69,7 @@ Some of our providers process data outside Malaysia, including in Singapore (for
 
 ## 7. Security
 
-We protect personal data with technical and organisational measures appropriate to the risk, including encryption in transit (TLS), access controls and least-privilege access, Cloudflare Zero Trust network protection, logging and monitoring, credential management, and vendor due diligence. No system is perfectly secure. If a personal data breach occurs that is likely to cause significant harm, we will notify the Personal Data Protection Commissioner and affected individuals as required by the PDPA.
+We protect personal data with technical and organisational measures appropriate to the risk, including encryption in transit (TLS), access controls and least-privilege access, Cloudflare Zero Trust network protection, logging and monitoring, credential management, and vendor due diligence. No system is perfectly secure. If a personal data breach occurs, we will notify the Personal Data Protection Commissioner as soon as practicable and in any event within 72 hours of becoming aware of it. Where the breach causes or is likely to cause significant harm to you, we will also notify you without undue delay, and in any event within 7 days of notifying the Commissioner, as required by the PDPA and the Commissioner's guidelines.
 
 ## 8. Retention
 
@@ -102,7 +102,7 @@ To exercise these rights, contact our DPO (Section 1). We will respond within 21
 
 ## 10. Cookies
 
-We use cookies and similar technologies as described in our [Cookie Policy](cookie-policy.md).
+We use cookies and similar technologies as described in our [Cookie Policy](/legal/cookies).
 
 ## 11. Children
 
@@ -115,7 +115,7 @@ When you (as our customer) submit personal data of your own customers, staff or 
 1. Process the data only on your documented instructions and to provide the Services.
 2. Keep it confidential and ensure our personnel are bound by confidentiality.
 3. Apply the security measures in Section 7.
-4. Engage sub-processors only under written terms with equivalent protection, as listed in [Sub-processors](subprocessors.md), giving you notice of changes.
+4. Engage sub-processors only under written terms with equivalent protection, as listed in [Sub-processors](/legal/subprocessors), giving you notice of changes.
 5. Help you respond to data subject requests and meet your breach-notification obligations, and notify you without undue delay after becoming aware of a breach affecting your data.
 6. Delete or return the data at the end of the Services, unless law requires us to keep it.
 7. Provide information reasonably needed to demonstrate compliance.
@@ -129,22 +129,8 @@ We may update this notice. We will post the new version with a new effective dat
 ## 14. Contact
 
 Data Protection Officer, Keystone Digital Sdn. Bhd.
-Level 22, Suite 015, Presint Menara Merdeka 118, 50118 Kuala Lumpur, Malaysia
-Email: **[TO CONFIRM: dpo@keystonedigital.com.my]**
+Level 22, Suite 015, Menara Merdeka 118, 50118 Kuala Lumpur, Malaysia
+Data Protection Officer: Lim Chi Loon
+Email: owen.lim@keystonedigital.com.my
 
----
-
-## Notis Perlindungan Data Peribadi (Bahasa Malaysia)
-
-Notis ini dikeluarkan menurut seksyen 7 **Akta Perlindungan Data Peribadi 2010** (sebagaimana dipinda pada 2024) oleh **Keystone Digital Sdn. Bhd.** (No. Syarikat 202601031998 (1694093-U)), Level 22, Suite 015, Presint Menara Merdeka 118, 50118 Kuala Lumpur.
-
-1. **Data yang dikumpul:** maklumat identiti dan hubungan, maklumat perniagaan (SSM, TIN, alamat, pengarah), maklumat akaun, bil dan transaksi, kandungan yang anda hantar (prompt, fail dan hasil AI), data peranti dan penggunaan, serta kuki.
-2. **Tujuan:** menyediakan Perkhidmatan dan memproses permintaan AI; pendaftaran rakan kongsi, pemerbadanan syarikat, e-invois MyInvois dan pembayaran; pengebilan; sokongan; keselamatan dan pencegahan penipuan; penambahbaikan perkhidmatan; pemasaran (dengan persetujuan anda); dan pematuhan undang-undang.
-3. **Kami tidak menggunakan** prompt, fail atau hasil AI anda untuk melatih model AI tanpa persetujuan nyata anda.
-4. **Pendedahan:** penyedia perkhidmatan (termasuk penyedia awan dan model AI), bank dan penyedia pembayaran, pihak berkuasa kerajaan (seperti LHDN dan SSM), syarikat berkaitan kami dan penasihat profesional. Kami **tidak menjual** data peribadi.
-5. **Pemindahan ke luar Malaysia:** data mungkin diproses di Singapura, Amerika Syarikat dan negara lain, tertakluk kepada seksyen 129 Akta.
-6. **Wajib atau sukarela:** data yang ditandakan sebagai wajib diperlukan untuk menyediakan Perkhidmatan. Tanpanya, kami tidak dapat memberikan Perkhidmatan tersebut.
-7. **Hak anda:** mengakses, membetulkan, menarik balik persetujuan, menghalang pemprosesan yang menyebabkan kerosakan atau distres, menolak pemasaran langsung, kemudahalihan data, dan membuat aduan kepada Pesuruhjaya Perlindungan Data Peribadi.
-8. **Hubungi:** Pegawai Perlindungan Data, e-mel **[UNTUK DISAHKAN: dpo@keystonedigital.com.my]**. Kami akan menjawab dalam tempoh 21 hari.
-
-Sekiranya terdapat percanggahan antara versi Bahasa Inggeris dan Bahasa Malaysia, versi Bahasa Inggeris akan diguna pakai setakat yang dibenarkan oleh undang-undang.
+A Malay (Bahasa Malaysia) version of this notice is available on request at the email address above.

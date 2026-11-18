@@ -2,7 +2,7 @@
 
 **Keystone Digital Sdn. Bhd.** (1694093-U) · Effective date: 17 November 2026 · Version 1.0
 
-This policy forms part of our [Terms of Service](terms-of-service.md). Where an order form or partner agreement says something different, that document prevails.
+This policy forms part of our [Terms of Service](/legal/terms). Where an order form or partner agreement says something different, that document prevails.
 
 ## 1. Subscriptions
 
@@ -42,4 +42,4 @@ Nothing in this policy affects rights that consumers have under the Consumer Pro
 
 ## 8. Contact
 
-Billing enquiries: **[TO CONFIRM: billing@keystonedigital.com.my]**
+Billing enquiries: owen.lim@keystonedigital.com.my

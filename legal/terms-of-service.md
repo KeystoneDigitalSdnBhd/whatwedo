@@ -14,10 +14,10 @@ By accessing or using the Services, or by clicking to accept these Terms, you ag
 | Legal name | Keystone Digital Sdn. Bhd. |
 | Company No. | 202601031998 (1694093-U) |
 | Tax Identification No. | C61137449080 |
-| Registered / business address | Level 22, Suite 015, Presint Menara Merdeka 118, 50118 Kuala Lumpur, Malaysia |
+| Registered / business address | Level 22, Suite 015, Menara Merdeka 118, 50118 Kuala Lumpur, Malaysia |
 | Contact | See [Contact](#20-contact) |
 
-Related entities: **Keystone Intelligence Global** (SSM 202603209774 (PG0591671-U)), which holds certain intellectual property, and **Keystone Insights Corp.** (Delaware File No. 10778512), which may process USD-denominated transactions. Where a Service is supplied by one of these entities, the order form or invoice will say so and that entity is the contracting party for that Service.
+Related entities: **Keystone Intelligence Global** (SSM 202603209774), a related entity that holds the group's trade marks and intellectual property, and **Keystone Insights Corp.** (Delaware File No. 10778512), which may process USD-denominated transactions. Where a Service is supplied by Keystone Insights Corp., the order form or invoice will say so and that entity is the contracting party for that Service.
 
 ## 2. Eligibility
 
@@ -32,22 +32,22 @@ You must be at least 18 years old and have legal capacity to enter into a bindin
 
 ## 4. The Services
 
-1. **AI generation.** The Services provide access to AI models for text, image, video, 3D and embedding generation, including models supplied by third-party providers (such as BytePlus ModelArk, Google Cloud Vertex AI / Model Garden and others listed in our [Sub-processors](subprocessors.md) list).
+1. **AI generation.** The Services provide access to AI models for text, image, video, 3D and embedding generation, including models supplied by third-party providers (such as BytePlus ModelArk, Google Cloud Vertex AI / Model Garden and others listed in our [Sub-processors](/legal/subprocessors) list).
 2. **Business tools.** The Services include partner provisioning, MyInvois e-invoicing helpers, DuitNow QR generation, banking-rail connectors, company-incorporation intake and Apple device configuration profiles.
-3. **Changes.** We may add, change or discontinue features. Where a change materially reduces a paid Service you have already purchased, we will give reasonable notice and, where appropriate, a pro-rated refund under our [Refund & Cancellation Policy](refund-and-cancellation-policy.md).
+3. **Changes.** We may add, change or discontinue features. Where a change materially reduces a paid Service you have already purchased, we will give reasonable notice and, where appropriate, a pro-rated refund under our [Refund & Cancellation Policy](/legal/refunds).
 4. **Beta features.** Features labelled "beta", "preview" or "experimental" are provided as-is, may be unreliable and may be withdrawn at any time.
 5. **Not professional advice.** Information and outputs from the Services, including incorporation, tax, e-invoicing, banking or legal content, are not legal, tax, accounting, financial or investment advice. Consult a qualified professional before relying on them.
 
 ## 5. Acceptable use
 
-You must comply with our [Acceptable Use Policy](acceptable-use-policy.md), which forms part of these Terms. Breach of it is a material breach of these Terms.
+You must comply with our [Acceptable Use Policy](/legal/acceptable-use), which forms part of these Terms. Breach of it is a material breach of these Terms.
 
 ## 6. Your content and AI outputs
 
 1. **Inputs.** You keep all rights in the prompts, files, data and other material you submit ("**Inputs**"). You grant us a non-exclusive, worldwide, royalty-free licence to host, process, transmit and display Inputs only as needed to provide, secure and support the Services and to comply with law.
 2. **Outputs.** As between you and Keystone, and to the extent permitted by law and by the terms of the relevant model provider, you own the content generated for you by the Services ("**Outputs**"). We assign to you any rights we may have in Outputs.
-3. **No guarantee of uniqueness or accuracy.** Outputs may be similar to content generated for others, may be inaccurate, incomplete or offensive, and may not be protectable by copyright. You are responsible for reviewing Outputs before use and for ensuring your use complies with law and third-party rights. See our [Disclaimer](disclaimer.md).
-4. **Model training.** We do not use your Inputs or Outputs to train AI models, and we do not permit our providers to do so, except where you expressly opt in in writing.
+3. **No guarantee of uniqueness or accuracy.** Outputs may be similar to content generated for others, may be inaccurate, incomplete or offensive, and may not be protectable by copyright. You are responsible for reviewing Outputs before use and for ensuring your use complies with law and third-party rights. See our [Disclaimer](/legal/disclaimer).
+4. **Model training.** We do not use your Inputs or Outputs to train our own AI models, except where you expressly opt in in writing. We choose providers and settings that do not use your content to train their models, where available.
 5. **Your responsibilities.** You warrant that you have all rights, consents and notices needed to submit Inputs, including any personal data of third parties, and that your Inputs do not infringe anyone's rights.
 
 ## 7. Fees, invoicing and payment
@@ -57,7 +57,7 @@ You must comply with our [Acceptable Use Policy](acceptable-use-policy.md), whic
 3. Invoices are payable within 14 days of issue unless otherwise agreed. Payment may be made by DuitNow, bank transfer or other methods we accept.
 4. Subscriptions renew automatically for the same term unless cancelled before the renewal date. Usage-based fees are billed in arrears.
 5. We may suspend Services for invoices more than 30 days overdue after giving at least 7 days' written notice. Late amounts may bear interest at 8% per annum or the maximum rate permitted by law, whichever is lower.
-6. Refunds are governed by our [Refund & Cancellation Policy](refund-and-cancellation-policy.md).
+6. Refunds are governed by our [Refund & Cancellation Policy](/legal/refunds).
 
 ## 8. Third-party services
 
@@ -71,7 +71,7 @@ Except for your Inputs and Outputs, the Services and all software, models, promp
 
 ## 10. Privacy and data protection
 
-We process personal data in accordance with our [Privacy Policy](privacy-policy.md) and the Personal Data Protection Act 2010 (as amended). Where we process personal data on your behalf as a data processor, our [Data Processing terms](privacy-policy.md#12-when-we-act-as-a-data-processor) apply.
+We process personal data in accordance with our [Privacy Policy](/legal/privacy) and the Personal Data Protection Act 2010 (as amended). Where we process personal data on your behalf as a data processor, our [Data Processing terms](/legal/privacy#12-when-we-act-as-a-data-processor) apply.
 
 ## 11. Confidentiality
 
@@ -95,7 +95,7 @@ You will defend and indemnify Keystone and its officers, employees and affiliate
 
 ## 15. Suspension and termination
 
-1. You may stop using the Services and close your account at any time. Cancellation of paid plans is governed by the [Refund & Cancellation Policy](refund-and-cancellation-policy.md).
+1. You may stop using the Services and close your account at any time. Cancellation of paid plans is governed by the [Refund & Cancellation Policy](/legal/refunds).
 2. We may suspend or terminate your access immediately if you materially breach these Terms, use the Services unlawfully, or create a security or legal risk for us or others. Otherwise we will give 30 days' written notice.
 3. On termination, your right to use the Services ends. We will make your Inputs and stored Outputs available for export for 30 days, after which we may delete them, subject to our legal retention obligations.
 4. Sections 6, 7 (for amounts owed), 9, 11, 12, 13, 14, 17 and 18 survive termination.
@@ -116,19 +116,19 @@ These Terms are governed by the laws of Malaysia. The parties will first try in 
 4. **Severability and waiver.** If any provision is unenforceable, the rest remain in effect. Failure to enforce a right is not a waiver.
 5. **Notices.** We may give notices by email to your account address or in the Services. You must give notices to us at the contact below.
 6. **Electronic contracts.** These Terms are concluded electronically and are valid under the Electronic Commerce Act 2006.
-7. **Language.** These Terms are written in English. If they are translated, the English version prevails to the extent permitted by law.
+7. **Language.** These Terms and our related policies are provided in English. A Malay (Bahasa Malaysia) version of our Privacy Policy and PDPA notice is available on request.
 
 ## 19. Related policies
 
-- [Privacy Policy](privacy-policy.md)
-- [Cookie Policy](cookie-policy.md)
-- [Acceptable Use Policy](acceptable-use-policy.md)
-- [Refund & Cancellation Policy](refund-and-cancellation-policy.md)
-- [Disclaimer](disclaimer.md)
-- [Sub-processors](subprocessors.md)
+- [Privacy Policy](/legal/privacy)
+- [Cookie Policy](/legal/cookies)
+- [Acceptable Use Policy](/legal/acceptable-use)
+- [Refund & Cancellation Policy](/legal/refunds)
+- [Disclaimer](/legal/disclaimer)
+- [Sub-processors](/legal/subprocessors)
 
 ## 20. Contact
 
 Keystone Digital Sdn. Bhd.
-Level 22, Suite 015, Presint Menara Merdeka 118, 50118 Kuala Lumpur, Malaysia
-Email: **[TO CONFIRM: legal@keystonedigital.com.my]**
+Level 22, Suite 015, Menara Merdeka 118, 50118 Kuala Lumpur, Malaysia
+Email: owen.lim@keystonedigital.com.my

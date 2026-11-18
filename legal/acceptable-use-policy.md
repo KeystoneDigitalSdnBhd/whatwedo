@@ -2,7 +2,7 @@
 
 **Keystone Digital Sdn. Bhd.** (1694093-U) · Effective date: 17 November 2026 · Version 1.0
 
-This Acceptable Use Policy ("**AUP**") forms part of our [Terms of Service](terms-of-service.md). It applies to everyone who uses the Services, including your end users. Our AI model providers' usage policies also apply to content generated through their models.
+This Acceptable Use Policy ("**AUP**") forms part of our [Terms of Service](/legal/terms). It applies to everyone who uses the Services, including your end users. Our AI model providers' usage policies also apply to content generated through their models.
 
 ## 1. Prohibited uses
 
@@ -41,4 +41,4 @@ We may investigate suspected breaches, remove content, and suspend or terminate 
 
 ## 5. Reporting abuse
 
-Report abuse or security issues to **[TO CONFIRM: abuse@keystonedigital.com.my]**. Include as much detail as you can.
+Report abuse or security issues to owen.lim@keystonedigital.com.my. Include as much detail as you can.
