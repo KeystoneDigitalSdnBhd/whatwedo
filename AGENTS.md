@@ -2,7 +2,7 @@
 
 ## 1. Corporate & Administrative Identity
 - **IDEAS (IP Vault):** **Keystone Intelligence Global** *(Keystone Insights / 基石智慧)* — SSM `202603209774 (PG0591671-U)` (`https://keystoneinsights.org`)
-- **TOOLS (Operating Hub):** **Keystone Digital Sdn. Bhd.** *(基石科技)* — SSM `202601031998 (1694093-U)` / `202601010539`, TIN `C61137449080`, D-U-N-S `473316744`, DuitNow QR ID `9999001236666`, HQ: Level 22, Suite 015, Presint Menara Merdeka 118, 50118 Kuala Lumpur (`https://keystonedigital.com.my`)
+- **TOOLS (Operating Hub):** **Keystone Digital Sdn. Bhd.** *(基石科技)* — SSM `202601031998 (1694093-U)` / `202601010539`, TIN `C61137449080`, D-U-N-S `473316744`, LEI `9845002F2J91D9A94779`, DuitNow QR ID `9999001236666`, HQ: Level 22, Suite 015, Presint Menara Merdeka 118, 50118 Kuala Lumpur (`https://keystonedigital.com.my`)
 - **GLOBAL (USD Rail):** **Keystone Insights Corp.** — Delaware File No `10778512`, LEI `254900MUEU3Z26I2OM74` (`https://keystoneinsights.xyz`)
 - **AI Knowledge Ambassador:** **Kaito (カイトー / 凯托)** — LINE `@494zhezf`, IG/X/FB `@keystonekaito`
 
