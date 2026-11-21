@@ -1,0 +1,36 @@
+{
+  "name": "@keystonedigital/lazada-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for the Lazada Open Platform (orders, products, finance, logistics) with HMAC-SHA256 signing, OAuth token lifecycle and PII redaction.",
+  "type": "module",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": "Keystone Digital Sdn. Bhd.",
+  "bin": {
+    "lazada-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "node --import tsx --test test/*.test.ts",
+    "smoke": "node scripts/smoke.mjs",
+    "live-check": "tsx scripts/live-check.ts",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  }
+}
