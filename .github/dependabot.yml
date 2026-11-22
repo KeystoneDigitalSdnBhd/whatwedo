@@ -1,21 +1,5 @@
 version: 2
 updates:
-  - package-ecosystem: npm
-    directory: /mcp/lazada
-    schedule:
-      interval: weekly
-    groups:
-      mcp-lazada:
-        patterns: ['*']
-    open-pull-requests-limit: 5
-  - package-ecosystem: npm
-    directory: /mcp/shopee
-    schedule:
-      interval: weekly
-    groups:
-      mcp-shopee:
-        patterns: ['*']
-    open-pull-requests-limit: 5
   - package-ecosystem: github-actions
     directory: /
     schedule:
