@@ -8,6 +8,7 @@
     "api:list": "python3 /home/antigravity/.local/bin/keystone api list",
     "api:search": "python3 /home/antigravity/.local/bin/keystone api search",
     "modelark": "modelark",
+    "agent:apple": "swift run --package-path integrations/apple-foundation-models KeystoneFoundationModels",
     "keystone": "keystone",
     "start": "python3 server.py",
     "dev": "python3 server.py --reload"
