@@ -16,6 +16,14 @@ updates:
       mcp-shopee:
         patterns: ['*']
     open-pull-requests-limit: 5
+  - package-ecosystem: npm
+    directory: /products/sg-market-intel
+    schedule:
+      interval: weekly
+    groups:
+      sg-market-intel:
+        patterns: ['*']
+    open-pull-requests-limit: 5
   - package-ecosystem: github-actions
     directory: /
     schedule:

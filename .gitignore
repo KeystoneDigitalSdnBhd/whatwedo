@@ -7,3 +7,4 @@ mcp/*/dist/
 .env.*
 !.env.example
 *.tokens.json
+products/*/dist/
