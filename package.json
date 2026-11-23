@@ -1,0 +1,28 @@
+{
+  "name": "@keystonedigital/whatwedo",
+  "version": "1.0.0",
+  "description": "Keystone Sovereign Agent (ks_sovereign_91a) - BytePlus ModelArk Studio, Complete 16-Sheet / 167-Tool Intelligence API Switchboard, 6-in-1 Partner Flywheel, and Coordinated Dual Mobile Builds",
+  "type": "module",
+  "scripts": {
+    "sync:mobile": "node scripts/sync-mobile-versions.mjs",
+    "api:list": "python3 /home/antigravity/.local/bin/keystone api list",
+    "api:search": "python3 /home/antigravity/.local/bin/keystone api search",
+    "modelark": "modelark",
+    "keystone": "keystone",
+    "start": "python3 server.py",
+    "dev": "python3 server.py --reload"
+  },
+  "keywords": [
+    "keystone",
+    "byteplus",
+    "modelark",
+    "seedance",
+    "seedream",
+    "sovereign-agent",
+    "myinvois",
+    "duitnow",
+    "apple-mdm"
+  ],
+  "author": "Keystone Digital Sdn. Bhd. (1694093-U)",
+  "license": "Proprietary"
+}

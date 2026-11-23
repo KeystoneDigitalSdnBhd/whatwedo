@@ -1,0 +1,1545 @@
+{
+  "schema_version": "2026.11.1",
+  "title": "Keystone Intelligence 16-Sheet API Directory",
+  "sovereign_agent": "ks_sovereign_91a",
+  "entity": "Keystone Digital Sdn. Bhd. (1694093-U)",
+  "total_sheets": 16,
+  "total_tools": 167,
+  "sheets": {
+    "Sheet 1: Financial Services APIs": [
+      {
+        "name": "bnm_fx",
+        "provider": "Bank Negara Malaysia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Daily official Ringgit exchange rates against major currencies"
+      },
+      {
+        "name": "bnm_opr",
+        "provider": "Bank Negara Malaysia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Overnight Policy Rate (OPR) changes - Malaysia's key interest rate"
+      },
+      {
+        "name": "bnm_klibor",
+        "provider": "Bank Negara Malaysia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "KLIBOR reference rates for mortgages and corporate loans"
+      },
+      {
+        "name": "bnm_base_rate",
+        "provider": "Bank Negara Malaysia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Standardized Base Rates across all commercial banks in Malaysia"
+      },
+      {
+        "name": "bnm_fx_turnover",
+        "provider": "Bank Negara Malaysia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Malaysian foreign exchange market volume metrics"
+      },
+      {
+        "name": "dosm_fuel_prices",
+        "provider": "Department of Statistics Malaysia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Weekly fuel prices (RON95, RON97, Diesel)"
+      },
+      {
+        "name": "dosm_cpi",
+        "provider": "Department of Statistics Malaysia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Consumer Price Index (Inflation) data"
+      },
+      {
+        "name": "dosm_gdp",
+        "provider": "Department of Statistics Malaysia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Quarterly national GDP statistics"
+      },
+      {
+        "name": "dosm_unemployment",
+        "provider": "Department of Statistics Malaysia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Labor force and unemployment rates"
+      },
+      {
+        "name": "dosm_household_income",
+        "provider": "Department of Statistics Malaysia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "District and parliamentary household income data"
+      },
+      {
+        "name": "snapinv_einvoice",
+        "provider": "LHDN",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "MyInvois validation for tax compliance"
+      },
+      {
+        "name": "ssm_company_lookup",
+        "provider": "SSM",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "MBRS company entity verification"
+      },
+      {
+        "name": "fred_api",
+        "provider": "Federal Reserve",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Federal Reserve Economic Data series for macroeconomic analysis"
+      },
+      {
+        "name": "boj_api",
+        "provider": "Bank of Japan",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Bank of Japan time-series search for economic data"
+      },
+      {
+        "name": "bukku_api",
+        "provider": "Bukku",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Bukku accounting software integration"
+      },
+      {
+        "name": "autocont_cloud",
+        "provider": "AutoCount",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "AutoCount cloud-based accounting system"
+      },
+      {
+        "name": "xero_api",
+        "provider": "Xero",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Xero cloud accounting platform integration"
+      },
+      {
+        "name": "nfp_mule_check",
+        "provider": "National Fraud Portal (PayNet)",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Fraud incident reporting and mule account verification"
+      },
+      {
+        "name": "stripe_api",
+        "provider": "Stripe",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Global credit card & digital payment processing"
+      },
+      {
+        "name": "curlec_razorpay",
+        "provider": "Curlec by Razorpay",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Curlec FPX & Direct Debit"
+      },
+      {
+        "name": "hsbc_omni",
+        "provider": "HSBC",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "HSBC Omni Collect"
+      },
+      {
+        "name": "util_duitnow_qr",
+        "provider": "DuitNow",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "DuitNow Settlement Rail"
+      },
+      {
+        "name": "lexisnexis_worldcheck",
+        "provider": "LexisNexis",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "LexisNexis World-Check"
+      },
+      {
+        "name": "ssm_mydata_biztrust",
+        "provider": "SSM",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "SSM MyData & BizTrust"
+      },
+      {
+        "name": "m365_graph",
+        "provider": "Microsoft 365",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Microsoft 365 Graph API"
+      },
+      {
+        "name": "xero_erp",
+        "provider": "Xero",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Xero Cloud Accounting"
+      },
+      {
+        "name": "hyatt_leverage_corporate",
+        "provider": "World of Hyatt",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "World of Hyatt Corporate Booking (Member #: 550099480Y, Hyatt Leverage Code: 240580)"
+      },
+      {
+        "name": "myinvois_token",
+        "provider": "LHDN",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "LHDN MyInvois e-Invoicing (OAuth 2.0 token & UBL 2.1 document submission for TIN: C61137449080)"
+      },
+      {
+        "name": "stripe_pay",
+        "provider": "Stripe",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Stripe Payment Gateway"
+      },
+      {
+        "name": "curlec_razorpay",
+        "provider": "Curlec by Razorpay",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Curlec FPX & Direct Debit"
+      },
+      {
+        "name": "hsbc_omni",
+        "provider": "HSBC",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "HSBC Omni Collect"
+      },
+      {
+        "name": "util_duitnow_qr",
+        "provider": "DuitNow",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "DuitNow Settlement Rail (EMVCo DuitNow QR for Keystone Digital (Account: 9999001236666))"
+      },
+      {
+        "name": "lexisnexis_worldcheck",
+        "provider": "LexisNexis",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "LexisNexis World-Check"
+      },
+      {
+        "name": "ssm_mydata_biztrust",
+        "provider": "SSM",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "SSM MyData & BizTrust"
+      },
+      {
+        "name": "m365_graph",
+        "provider": "Microsoft 365",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Microsoft 365 Graph API"
+      },
+      {
+        "name": "xero_erp",
+        "provider": "Xero",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Xero Cloud Accounting"
+      }
+    ],
+    "Sheet 2: Healthcare & Medical APIs": [
+      {
+        "name": "National Blood Bank",
+        "provider": "Ministry of Health",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "National blood stock levels monitoring"
+      },
+      {
+        "name": "Hospital Bed Utilization",
+        "provider": "Ministry of Health",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Hospital bed utilization tracking"
+      },
+      {
+        "name": "COVID and Communicable Disease Tracking",
+        "provider": "Ministry of Health",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Disease surveillance"
+      },
+      {
+        "name": "DoctorOnCall API",
+        "provider": "DoctorOnCall",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Telemedicine integration for remote consultations"
+      },
+      {
+        "name": "Japanese Medical Facilities Database",
+        "provider": "Japan",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Medical facility directory"
+      },
+      {
+        "name": "MODS Medical Facilities",
+        "provider": "Japan",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Medical facility directory"
+      }
+    ],
+    "Sheet 3: Mobility & Transportation APIs": [
+      {
+        "name": "KLIA/KLIA2 Flight Tracking",
+        "provider": "Malaysia Airports",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Real-time flight tracking"
+      },
+      {
+        "name": "AviationStack API",
+        "provider": "AviationStack",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Flight data"
+      },
+      {
+        "name": "AeroDataBox API",
+        "provider": "AeroDataBox",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Aviation data"
+      },
+      {
+        "name": "FlightAware API",
+        "provider": "FlightAware",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Flight tracking"
+      },
+      {
+        "name": "ICAO API",
+        "provider": "International Civil Aviation Organization",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Aviation information services"
+      },
+      {
+        "name": "RapidKL, MRT, and LRT Schedule",
+        "provider": "Prasarana",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Public transit schedule and ridership data"
+      },
+      {
+        "name": "EV Charging Station Locator",
+        "provider": "Various",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "National charging station locator"
+      },
+      {
+        "name": "Postcode Mapping",
+        "provider": "Various",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Delivery optimization"
+      },
+      {
+        "name": "japanese_addr",
+        "provider": "Geolonia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Geolonia Japanese administrative address mapper"
+      },
+      {
+        "name": "Geolonia Japanese Addr",
+        "provider": "Geolonia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Geolonia Japanese administrative address mapper"
+      }
+    ],
+    "Sheet 4: Environmental Monitoring APIs": [
+      {
+        "name": "7-day District Forecasts",
+        "provider": "Malaysian Meteorological Department",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Weather forecasting"
+      },
+      {
+        "name": "Air Quality Monitoring",
+        "provider": "Malaysian Meteorological Department",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Air quality metrics"
+      },
+      {
+        "name": "Flood Warning Systems",
+        "provider": "Department of Irrigation and Drainage",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Real-time river level monitoring"
+      },
+      {
+        "name": "Climate Tracking",
+        "provider": "Various",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Temperature, humidity, and pollution metrics"
+      },
+      {
+        "name": "Earthquake Monitoring",
+        "provider": "Japan",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Disaster preparedness"
+      },
+      {
+        "name": "jma_weather_jp",
+        "provider": "Japan Meteorological Agency",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "JMA Tokyo Weather"
+      },
+      {
+        "name": "jps_water",
+        "provider": "Department of Irrigation and Drainage",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "JPS Flood & River Levels"
+      },
+      {
+        "name": "met_forecast",
+        "provider": "MetMalaysia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "MetMalaysia 7-Day Weather"
+      },
+      {
+        "name": "apims_haze",
+        "provider": "APIMS",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "APIMS Haze & Air Index"
+      },
+      {
+        "name": "open_meteo_kl",
+        "provider": "Open-Meteo",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Open-Meteo KL Telemetry"
+      },
+      {
+        "name": "data_gov_sg",
+        "provider": "Singapore Government",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Data.gov.sg Weather"
+      },
+      {
+        "name": "JMA Weather / Earthquake",
+        "provider": "Japan Meteorological Agency",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Weather and earthquake data"
+      },
+      {
+        "name": "Open-Meteo (Tokyo)",
+        "provider": "Open-Meteo",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Weather forecast for Tokyo"
+      },
+      {
+        "name": "Open-Meteo (Taipei)",
+        "provider": "Open-Meteo",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Weather forecast for Taipei"
+      },
+      {
+        "name": "Open-Meteo (Kuala Lumpur)",
+        "provider": "Open-Meteo",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Weather forecast for Kuala Lumpur"
+      },
+      {
+        "name": "Open-Meteo (Singapore)",
+        "provider": "Open-Meteo",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Weather forecast for Singapore"
+      }
+    ],
+    "Sheet 5: Government Services APIs": [
+      {
+        "name": "Federal Portal Usage Metrics",
+        "provider": "Malaysian Government",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Digital services tracking"
+      },
+      {
+        "name": "Public Holiday Calendars",
+        "provider": "Various",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Malaysian, Singaporean, Taiwanese, and Japanese holidays"
+      },
+      {
+        "name": "Water Dam Capacity Monitoring",
+        "provider": "Department of Irrigation and Drainage",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Resource management"
+      },
+      {
+        "name": "holidays_my",
+        "provider": "Nager.Date",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Malaysia Public Holidays"
+      },
+      {
+        "name": "LHDN MyInvois",
+        "provider": "LHDN",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "LHDN MyInvois e-Invoicing"
+      },
+      {
+        "name": "SSM MyData & BizTrust API",
+        "provider": "SSM",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "SSM MyData & BizTrust API"
+      },
+      {
+        "name": "SSM MBRS API",
+        "provider": "Malaysian Business Reporting System Sandbox",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "SSM MBRS API"
+      },
+      {
+        "name": "MyGDX API",
+        "provider": "mygdx.malaysia.gov.my",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "MyGDX API"
+      },
+      {
+        "name": "MyDigital ID Connector",
+        "provider": "OpenID Connect / OAuth 2.0 Auth Redirect",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "MyDigital ID Connector"
+      },
+      {
+        "name": "PDRM Semak Mule API",
+        "provider": "semakmule.rmp.gov.my",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "PDRM Semak Mule API"
+      },
+      {
+        "name": "NSRC 997 Telemetry",
+        "provider": "National Scam Response Centre Incident Format",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "NSRC 997 Telemetry"
+      },
+      {
+        "name": "data.gov.my Data Catalogue",
+        "provider": "api.data.gov.my/data-catalogue",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "data.gov.my Data Catalogue"
+      },
+      {
+        "name": "OpenDOSM API",
+        "provider": "api.data.gov.my/data-catalogue",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "OpenDOSM API"
+      },
+      {
+        "name": "MET Malaysia API",
+        "provider": "api.met.gov.my/v2/data",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "MET Malaysia API"
+      },
+      {
+        "name": "myTNB Telemetry API",
+        "provider": "Automated portal scrapers/APIs",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "myTNB Telemetry API"
+      },
+      {
+        "name": "Bursa Malaysia Market Data",
+        "provider": "Live ticker feeds",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Bursa Malaysia Market Data"
+      },
+      {
+        "name": "data.gov.my Data Catalogue",
+        "provider": "Malaysia Government",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Ingesting national economic indices and macro statistics"
+      },
+      {
+        "name": "OpenDOSM API",
+        "provider": "Malaysia Government",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "National census, trade, and economic census datasets"
+      },
+      {
+        "name": "MET Malaysia API",
+        "provider": "MetMalaysia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Public meteorological alerts and climate risk metrics"
+      },
+      {
+        "name": "Bank Negara Malaysia OpenAPI",
+        "provider": "Bank Negara Malaysia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Official USD/MYR exchange rates, daily KLIBOR, and MYOR rates"
+      },
+      {
+        "name": "data.gov.my Data Catalogue",
+        "provider": "Malaysia Government",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Ingesting national economic indices and macro statistics"
+      },
+      {
+        "name": "OpenDOSM API",
+        "provider": "Malaysia Government",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "National census, trade, and economic census datasets"
+      },
+      {
+        "name": "MET Malaysia API",
+        "provider": "MetMalaysia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Public meteorological alerts and climate risk metrics"
+      },
+      {
+        "name": "Holidays (Japan)",
+        "provider": "Nager.Date",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Japanese public holidays"
+      },
+      {
+        "name": "Taiwan Calendar",
+        "provider": "Pin-yi",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Taiwan calendar API"
+      },
+      {
+        "name": "Holidays (Taiwan)",
+        "provider": "Nager.Date",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Taiwanese public holidays"
+      },
+      {
+        "name": "Holidays (Malaysia)",
+        "provider": "Nager.Date",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Malaysian public holidays"
+      },
+      {
+        "name": "data.gov.sg (Air Temperature)",
+        "provider": "Singapore Government",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Singapore air temperature data"
+      },
+      {
+        "name": "data.gov.sg (Weather Forecast)",
+        "provider": "Singapore Government",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Singapore weather forecast"
+      },
+      {
+        "name": "Holidays (Singapore)",
+        "provider": "Nager.Date",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Singaporean public holidays"
+      }
+    ],
+    "Sheet 6: Messaging & Social APIs": [
+      {
+        "name": "Meta WhatsApp Cloud API",
+        "provider": "Meta",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Kaito conversational intake, automated receipt uploads, trigger flows"
+      },
+      {
+        "name": "Meta Graph API (FB & IG)",
+        "provider": "Meta",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Automated comment-to-DM flows, Instagram Reel engagement tracking"
+      },
+      {
+        "name": "Meta Marketing API",
+        "provider": "Meta",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Programmatic campaign management and custom audience sync"
+      },
+      {
+        "name": "LINE Messaging API",
+        "provider": "LINE",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Regional conversational bridge for North Asian and expat clients"
+      },
+      {
+        "name": "X (Twitter) API v2",
+        "provider": "X",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Brand publishing, ecosystem announcements, corporate social listening"
+      },
+      {
+        "name": "Xiaohongshu Marketing API",
+        "provider": "Xiaohongshu",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Advertising data and keyword reporting for marketing campaigns"
+      }
+    ],
+    "Sheet 7: Vision, Storage & Cloud APIs": [
+      {
+        "name": "Ilmu Vision Engine API",
+        "provider": "Ilmu",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "OCR & Structured Extraction Gateway"
+      },
+      {
+        "name": "Microsoft 365 Graph API",
+        "provider": "Microsoft",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Automated daily ejection of audit files to client M365 OneDrive vaults"
+      },
+      {
+        "name": "Google Cloud Platform (GCP)",
+        "provider": "Google",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Core cloud processing, serverless workers, container runtimes"
+      },
+      {
+        "name": "Firebase API",
+        "provider": "Firebase",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Lightweight client state routing and app services"
+      },
+      {
+        "name": "Cloudflare API",
+        "provider": "Cloudflare",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "DNS zone records, SSL edge certificates, and WAF rules"
+      },
+      {
+        "name": "Cal.com / Google Calendar",
+        "provider": "Cal.com/Google",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Dynamic booking for Preview 118 sessions and strategy consultations"
+      }
+    ],
+    "Sheet 8: PKI & Security Trust APIs": [
+      {
+        "name": "Pos Digicert / Trustgate PKI",
+        "provider": "Pos Digicert",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "RFC 3161 cryptographic timestamping and OCSP certificate status"
+      },
+      {
+        "name": "Let's Encrypt ACME API",
+        "provider": "Let's Encrypt",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Automated SSL/TLS issuance and renewal (RFC 8555)"
+      },
+      {
+        "name": "GitHub API",
+        "provider": "GitHub",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "CI/CD automation, sovereign code escrow, and release builds"
+      }
+    ],
+    "Sheet 9: Insurance & Takaful APIs": [
+      {
+        "name": "Policystreet API",
+        "provider": "Policystreet",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "General insurance & embedded takaful"
+      },
+      {
+        "name": "Allianz Travel API",
+        "provider": "Allianz",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Allianz Travel insurance"
+      }
+    ],
+    "Sheet 10: Telemedicine & Digital Health APIs": [
+      {
+        "name": "DoctorOnCall API",
+        "provider": "DoctorOnCall",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Telemedicine integration for remote consultations"
+      }
+    ],
+    "Sheet 11: Central Banks & Macro Indicators": [
+      {
+        "name": "Bank of Japan API",
+        "provider": "Bank of Japan",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Bank of Japan time-series search for economic data"
+      },
+      {
+        "name": "FRED API",
+        "provider": "Federal Reserve",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Federal Reserve Economic Data series for macroeconomic analysis"
+      }
+    ],
+    "Sheet 12: Cognitive & Multimodal AI APIs": [
+      {
+        "name": "OpenAI API",
+        "provider": "OpenAI",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Cognitive & multimodal AI services"
+      }
+    ],
+    "Sheet 13: Flight Status APIs": [
+      {
+        "name": "Aviationstack",
+        "provider": "Aviationstack",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Live status, delays, gate, terminal, departure/arrival times"
+      },
+      {
+        "name": "OpenSky Network",
+        "provider": "OpenSky Network",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Real-time ADS-B position (lat/long, altitude, speed)"
+      },
+      {
+        "name": "AeroDataBox",
+        "provider": "AeroDataBox",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Status + schedules"
+      },
+      {
+        "name": "FlightAware AeroAPI",
+        "provider": "FlightAware",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "High-quality status + predictive ETAs"
+      },
+      {
+        "name": "FlightAware AeroAPI",
+        "provider": "FlightAware",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Live flight status and ADS-B arrival tracking for Tier 2/3 Grab pickups"
+      },
+      {
+        "name": "AviationStack API",
+        "provider": "AviationStack",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Global flight route lookup, airline schedule verification"
+      },
+      {
+        "name": "AeroDataBox API",
+        "provider": "AeroDataBox",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Backup flight telemetry, live delay feeds, and airport status"
+      }
+    ],
+    "Sheet 14: Seat Availability APIs": [
+      {
+        "name": "seats.aero",
+        "provider": "seats.aero",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Award/points seat availability"
+      },
+      {
+        "name": "Aviationstack",
+        "provider": "Aviationstack",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Schedule + aircraft type data"
+      },
+      {
+        "name": "AeroDataBox",
+        "provider": "AeroDataBox",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Schedule + aircraft type data"
+      }
+    ],
+    "Sheet 15: Open Data APIs (No Key Required)": [
+      {
+        "name": "dosm_gdp",
+        "provider": "Department of Statistics Malaysia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Real quarterly GDP sectoral indicators from data.gov.my"
+      },
+      {
+        "name": "dosm_labor",
+        "provider": "Department of Statistics Malaysia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "National labor force and unemployment telemetry"
+      },
+      {
+        "name": "jma_weather_jp",
+        "provider": "Japan Meteorological Agency",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Japan Meteorological Agency forecast bulletin"
+      },
+      {
+        "name": "japanese_addr",
+        "provider": "Geolonia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Geolonia Japanese administrative address mapper"
+      },
+      {
+        "name": "open_meteo_kl",
+        "provider": "Open-Meteo",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Real-time weather telemetry for Kuala Lumpur"
+      },
+      {
+        "name": "data_gov_sg",
+        "provider": "Singapore Government",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Singapore air temperature and 2-hr forecast"
+      },
+      {
+        "name": "holidays_my",
+        "provider": "Nager.Date",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Nager.Date public holiday calendar sync"
+      },
+      {
+        "name": "JMA Weather / Earthquake",
+        "provider": "Japan Meteorological Agency",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Weather and earthquake data"
+      },
+      {
+        "name": "Japanese Addresses",
+        "provider": "Geolonia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Japanese address database"
+      },
+      {
+        "name": "MODS Medical Facilities",
+        "provider": "Japan",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Medical facility directory"
+      },
+      {
+        "name": "Open-Meteo (Tokyo)",
+        "provider": "Open-Meteo",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Weather forecast for Tokyo"
+      },
+      {
+        "name": "Holidays (Japan)",
+        "provider": "Nager.Date",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Japanese public holidays"
+      },
+      {
+        "name": "Open-Meteo (Taipei)",
+        "provider": "Open-Meteo",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Weather forecast for Taipei"
+      },
+      {
+        "name": "Taiwan Calendar",
+        "provider": "Pin-yi",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Taiwan calendar API"
+      },
+      {
+        "name": "Holidays (Taiwan)",
+        "provider": "Nager.Date",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Taiwanese public holidays"
+      },
+      {
+        "name": "data.gov.my",
+        "provider": "Malaysia Government",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Malaysian government open data"
+      },
+      {
+        "name": "Open-Meteo (Kuala Lumpur)",
+        "provider": "Open-Meteo",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Weather forecast for Kuala Lumpur"
+      },
+      {
+        "name": "Holidays (Malaysia)",
+        "provider": "Nager.Date",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Malaysian public holidays"
+      },
+      {
+        "name": "data.gov.sg (Air Temperature)",
+        "provider": "Singapore Government",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Singapore air temperature data"
+      },
+      {
+        "name": "data.gov.sg (Weather Forecast)",
+        "provider": "Singapore Government",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Singapore weather forecast"
+      },
+      {
+        "name": "Open-Meteo (Singapore)",
+        "provider": "Open-Meteo",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Weather forecast for Singapore"
+      },
+      {
+        "name": "Holidays (Singapore)",
+        "provider": "Nager.Date",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Singaporean public holidays"
+      },
+      {
+        "name": "Bank Negara Malaysia OpenAPI",
+        "provider": "Bank Negara Malaysia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Official USD/MYR exchange rates, daily KLIBOR, and MYOR rates"
+      },
+      {
+        "name": "data.gov.my Data Catalogue",
+        "provider": "Malaysia Government",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Ingesting national economic indices and macro statistics"
+      },
+      {
+        "name": "OpenDOSM API",
+        "provider": "Malaysia Government",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "National census, trade, and economic census datasets"
+      },
+      {
+        "name": "MET Malaysia API",
+        "provider": "MetMalaysia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Public meteorological alerts and climate risk metrics"
+      },
+      {
+        "name": "DOSM GDP Telemetry",
+        "provider": "DOSM",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Real quarterly GDP sectoral indicators from data.gov.my"
+      },
+      {
+        "name": "DOSM Labor Force",
+        "provider": "DOSM",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "National labor force and unemployment telemetry"
+      },
+      {
+        "name": "MetMalaysia 7-Day Weather",
+        "provider": "MetMalaysia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "District weather forecast & seismic observations"
+      },
+      {
+        "name": "APIMS Haze & Air Index",
+        "provider": "APIMS",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Air Pollutant Index Management System metrics"
+      },
+      {
+        "name": "JPS Flood & River Levels",
+        "provider": "JPS",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Department of Irrigation and Drainage warning levels"
+      },
+      {
+        "name": "Open-Meteo KL Telemetry",
+        "provider": "Open-Meteo",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Real-time weather telemetry for Kuala Lumpur"
+      },
+      {
+        "name": "Data.gov.sg Weather",
+        "provider": "Data.gov.sg",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Singapore air temperature and 2-hr forecast"
+      },
+      {
+        "name": "Malaysia Public Holidays",
+        "provider": "Nager.Date",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Nager.Date public holiday calendar sync"
+      },
+      {
+        "name": "JMA Tokyo Weather",
+        "provider": "JMA",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Japan Meteorological Agency forecast bulletin"
+      },
+      {
+        "name": "Geolonia Japanese Addr",
+        "provider": "Geolonia",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Geolonia Japanese administrative address mapper"
+      },
+      {
+        "name": "data.gov.sg Real-time (light use, no key)",
+        "provider": "Singapore Government",
+        "category_region": "Global / ASEAN / Malaysia",
+        "auth": "``",
+        "base_url": "``",
+        "docs_url": "https://docs.keystoneinsights.org",
+        "description": "Singapore air temperature and 2-hr forecast"
+      }
+    ],
+    "Sheet 16: Notes & Telemetry Directory": [
+      {
+        "name": "keystone_telemetry_directory",
+        "provider": "Keystone Intelligence / Kaito Project",
+        "category_region": "Internal / High-Performance Switchboard",
+        "auth": "Internal Sovereign Signature",
+        "base_url": "https://api.keystonedigital.com.my/v1/telemetry",
+        "docs_url": "https://keystoneinsights.org/docs/directory",
+        "description": "Master 167-tool directory router with Xiaohongshu marketing telemetry, Python 3.11+, FastAPI, Redis, and HTTPX"
+      }
+    ]
+  }
+}
