@@ -7,3 +7,5 @@ mcp/*/dist/
 .env.*
 !.env.example
 *.tokens.json
+
+integrations/apple-foundation-models/.build/
