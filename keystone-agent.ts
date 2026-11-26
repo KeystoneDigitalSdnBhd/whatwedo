@@ -3,7 +3,7 @@
  * Entities:
  *  - Keystone Intelligence Global (PG0591671-U) | https://keystoneinsights.org
  *  - Keystone Digital Sdn. Bhd. (1694093-U | TIN C61137449080 | D-U-N-S 473316744 | DuitNow 9999001236666) | https://keystonedigital.com.my
- *  - Keystone Insights Corp. (Delaware 10778512 | LEI 254900MUEU3Z26I2OM74) | https://keystoneinsights.xyz
+ *  - Keystone Insights Corp. (Delaware 10778512 | LEI 254900MUEU3Z26I2OM74, issued by Bloomberg Finance L.P.) | https://keystoneinsights.xyz
  * AI Ambassador: Kaito (LINE @494zhezf | IG/X/FB @keystonekaito)
  */
 
@@ -58,6 +58,8 @@ export const KEYSTONE_ENTITIES: KeystoneEntityMetadata = {
     name: "Keystone Insights Corp.",
     delawareFileNo: "10778512",
     lei: "254900MUEU3Z26I2OM74",
+    leiIssuer: "Bloomberg Finance L.P.",
+    leiRecord: "https://lei.bloomberg.com/leis/view/254900MUEU3Z26I2OM74",
     domain: "https://keystoneinsights.xyz",
   },
 };
