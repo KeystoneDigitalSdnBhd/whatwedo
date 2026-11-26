@@ -61,6 +61,8 @@ ENTITIES = {
         "name": "Keystone Insights Corp.",
         "delaware_file_no": "10778512",
         "lei": "254900MUEU3Z26I2OM74",
+        "lei_issuer": "Bloomberg Finance L.P.",
+        "lei_record": "https://lei.bloomberg.com/leis/view/254900MUEU3Z26I2OM74",
         "domain": "https://keystoneinsights.xyz",
     },
     "ai_ambassador": {
