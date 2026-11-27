@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "deny": [
+      "WebFetch(domain:keystoneinsights.us)",
+      "WebFetch(domain:www.keystoneinsights.us)",
+      "WebFetch(domain:keystonedigital.com.my)",
+      "WebFetch(domain:www.keystonedigital.com.my)",
+      "WebFetch(domain:api.keystonedigital.com.my)",
+      "WebFetch(domain:keystoneinsights.org)",
+      "WebFetch(domain:www.keystoneinsights.org)",
+      "WebFetch(domain:docs.keystoneinsights.org)",
+      "Bash(curl *keystoneinsights.us*)",
+      "Bash(wget *keystoneinsights.us*)",
+      "Bash(curl *keystonedigital.com.my*)",
+      "Bash(wget *keystonedigital.com.my*)",
+      "Bash(curl *keystoneinsights.org*)",
+      "Bash(wget *keystoneinsights.org*)"
+    ]
+  }
+}
